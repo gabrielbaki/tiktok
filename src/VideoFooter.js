@@ -5,7 +5,7 @@ function VideoFooter() {
     return (
         <div className="VideoFooter">
             <div className="VideoFooter_text">
-                <h3>@ssssangha</h3>
+                <h3>@gggabrielbakizzz</h3>
                 <p>This is some kind of description</p>
             </div> 
         </div>
