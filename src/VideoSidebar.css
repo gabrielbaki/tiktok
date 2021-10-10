@@ -1,19 +1,11 @@
-.videoFooter {
-  position: relative;
+.videoSidebar {
+  position: absolute;
+  top: 50%;
+  right: 10px;
   color: white;
-  bottom: 150px;
-  margin-left: 40px;
-  display: flex;
 }
 
-.videoFooter__text {
-  flex: 1;
-}
-
-.videoFooter__text > p {
-  padding-bottom: 20px;
-}
-
-.videoFooter__text > h3 {
-  padding-bottom: 20px;
+.videoSidebar__button {
+  padding: 20px;
+  text-align: center;
 }

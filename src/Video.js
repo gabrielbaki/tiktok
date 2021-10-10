@@ -1,7 +1,9 @@
 import React, { useRef, useState } from 'react'
 import "./Video.css";
+import VideoFooter from "./VideoFooter"
+import VideoSidebar from "./VideoSidebar"
 
-function Video() {
+function Video({url}) {
     const [playing, setPlaying] = useState(false);
     const videoRef = useRef(null);
 
@@ -16,13 +18,14 @@ function Video() {
     };
 
     return <div className="video">
-        <iframe 
+        <video 
         className="video__player"
+        onClick={handleVideoPress}
         loop
         ref={videoRef}
-        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"></iframe>
-    {/* VideoFooter */}
-    {/* VideoSidebar */}
+        src={url}></video>
+    <VideoFooter channel="gabbrielbakizz" description="This is the description!" song="Happy Song"/>
+    <VideoSidebar likes={111} shares={222} messages={33}/>
     </div>
 }
 

@@ -7,12 +7,10 @@ function App() {
     <div className="app">
 
       <div className="app__videos">
-        <Video />
-        <Video />
-        <Video />
-        <Video />
-        <Video />
-        <Video />
+        <Video url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
+        <Video url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
+        <Video url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
+        <Video url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
       </div>
 
         {/* app container */}
